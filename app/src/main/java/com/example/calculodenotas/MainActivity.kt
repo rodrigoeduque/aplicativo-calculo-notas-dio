@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
             if (media >= 6 && faltas <= 10){
-                resultado.text = "Aluno foi Aprovado \n Nota Final: $media \n Faltas: $faltas"
+                resultado.text = "Aluno Aprovado! PARABÉNS \n Nota Final: $media \n Faltas: $faltas"
                 resultado.setTextColor(Color.GREEN)
             }
             else {
